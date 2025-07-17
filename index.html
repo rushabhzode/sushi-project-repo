@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/sushi.png" />
-  <link rel="stylesheet" href="CSS/Style.CSS">
+  <link rel="stylesheet" href="css/style.css">
   <title>Sushi</title>
 </head>
 <body>
   <header>
-  <nav class ="header_nav">
-    <class="header_logo">
+  <nav class ="header__nav">
+    <div class="header__logo">
       <h4>Sushi</h4>
-      <div class="header_logo-overlay"></div>
+      <div class="header__logo-overlay"></div>
     </div>
-    <ul class="header_Menu">
+    <ul class="header__Menu">
       <li>
         <a href="#menu">Menu</a>
       </li>
@@ -25,17 +25,32 @@
         <a href="#Services">Services</a>
       </li>
       <li>
-        <a href="#about Us">about Us</a>
+        <a href="#About-Us">About Us</a>
       </li>
       <li>
         <img src="assets/search.svg"
         alt="search" />
       </li>
+    </ul>
 
-
+    <ul class="header__menu-mobile">
+      <li>
+    <img src="assets/menu.svg"
+    alt="menu" />
+    </li>
     </ul>
   </nav>
-  </header>
-<script src="js/script.js" type="module"></script>
+  </header> 
+  <section class="hero">
+    <div class="hero-image">
+      <img src="assets/sushi-1.png" alt="sushi"/>
+      <h2>
+        日 <br />     
+        本 <br />
+        食 
+      </h2>
+    </div>
+  </section>
+  <Script src="JS/Script.js" type="module"></Script>
 </body>
 </html>
